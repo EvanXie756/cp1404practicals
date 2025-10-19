@@ -1,3 +1,11 @@
+"""
+CP1404/CP5632 Practical
+Store emails and names in a dictionary
+Estimate: 25 minutes
+Actual: 55 minutes
+"""
+
+
 def main():
     email_to_name = {}
 
