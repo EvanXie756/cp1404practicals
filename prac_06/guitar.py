@@ -12,4 +12,4 @@ class Guitar:
         return self.get_age() >= 50
 
     def __str__(self):
-        print(f"{self.name} ({self.year}) : {self.cost}")
+        return f"{self.name} ({self.year}) : {self.cost}"
