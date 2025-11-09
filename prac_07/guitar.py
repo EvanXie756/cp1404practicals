@@ -12,4 +12,7 @@ class Guitar:
         return self.get_age() >= 50
 
     def __str__(self):
-        return f"{self.name} ({self.year}) : {self.cost}"
+        return f"{self.name:20} ({self.year:>5}) : {self.cost:>10,.2f}"
+
+    def __lt__(self, other):
+        return self.year < other.year
