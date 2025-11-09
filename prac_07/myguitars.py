@@ -10,5 +10,15 @@ def main():
             guitar = Guitar(name, int(year), float(cost))
             guitars.append(guitar)
 
+    print("Guitars Loaded: ")
+    for guitar in guitars:
+        print(f"{guitar}")
+
+    guitars.sort()
+
+    print("Sorted by Year")
+    for guitar in guitars:
+        print(f"{guitar}")
+
 
 main()
