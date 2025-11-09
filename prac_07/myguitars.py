@@ -16,7 +16,7 @@ def main():
 
     guitars.sort()
 
-    print("Sorted by Year")
+    print("Sorted by Year: ")
     for guitar in guitars:
         print(f"{guitar}")
 
