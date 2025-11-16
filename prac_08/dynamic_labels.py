@@ -9,3 +9,7 @@ class DynamicLabelsApp(App):
         super().__init__(**kwargs)
         self.names = ["John", "Joe", "Jason", "Mary", "Kevin", "Juan"]
 
+    def build(self):
+        self.root = Builder.load_file("dynamic_labels.kv")
+
+
