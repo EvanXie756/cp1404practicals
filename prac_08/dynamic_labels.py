@@ -14,6 +14,9 @@ class DynamicLabelsApp(App):
 
         for name in self.names:
             label = Label(text=name)
-            self.root.ids.main.add_widget(Label)
+            self.root.ids.main.add_widget(label)
 
         return self.root
+
+
+DynamicLabelsApp().run()
