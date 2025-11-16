@@ -12,4 +12,8 @@ class DynamicLabelsApp(App):
     def build(self):
         self.root = Builder.load_file("dynamic_labels.kv")
 
+        for name in self.names:
+            label = Label(text=name)
+            self.root.ids.main.add_widget(Label)
 
+        return self.root
