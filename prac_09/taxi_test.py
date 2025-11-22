@@ -6,6 +6,9 @@ def main():
 
     my_taxi.drive(40)
 
+    print(my_taxi)
+    print("Current fare:", my_taxi.current_fare_distance)
+
 
 
 main()
