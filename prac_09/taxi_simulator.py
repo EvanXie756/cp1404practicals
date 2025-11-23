@@ -10,5 +10,10 @@ def main():
     bill_to_date = 0
     current_taxi = None
 
+    menu()
+
+
+def menu():
+    print("q)uit, c)hoose taxi, d)rive")
 
 main()
