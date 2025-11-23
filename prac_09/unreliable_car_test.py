@@ -10,4 +10,9 @@ def main():
         distance = reliable_car.drive(10)
         print(f"Attempt {i+1}: drove distance {distance}")
 
+    print("Testing unreliable car (10%)")
+    for i in range(5):
+        distance = unreliable_car.drive(10)
+        print(f"Attempt {i+1}: drive distance {distance}")
+
 main()
