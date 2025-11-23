@@ -7,6 +7,9 @@ def main():
     taxi.current_fare_distance()
     taxi.drive(100)
 
+    fare = taxi.get_fare()
+    print(f"Calculated fare: {fare:.2f}")
+
 
 
 main()
