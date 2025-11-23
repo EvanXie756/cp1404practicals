@@ -5,5 +5,9 @@ def main():
     reliable_car = UnreliableCar("Reliable", 100, 90)
     unreliable_car = UnreliableCar("Unreliable", 100, 10)
 
+    print("Testing reliable car (90%)")
+    for i in range(5):
+        distance = reliable_car.drive(10)
+        print(f"Attempt {i+1}: drove distance {distance}")
 
 main()
