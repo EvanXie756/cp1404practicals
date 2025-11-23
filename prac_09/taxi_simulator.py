@@ -7,5 +7,8 @@ def main():
     taxis = [Taxi("Prius", 100), SilverServiceTaxi("limo", 100, 2),
              SilverServiceTaxi("Truck", 200, 4)]
 
+    bill_to_date = 0
+    current_taxi = None
+
 
 main()
